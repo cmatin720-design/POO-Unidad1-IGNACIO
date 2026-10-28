@@ -82,6 +82,14 @@ El sistema permite crear contenidos audiovisuales, mostrar sus detalles y establ
 
 
 
+\## Validaciones
+
+La clase Actor verifica que el nombre y la nacionalidad
+
+no estén vacíos. Si alguno de estos datos es inválido,
+
+se genera una excepción IllegalArgumentException.
+
 Autor
 
 
